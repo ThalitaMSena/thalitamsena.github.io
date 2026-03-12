@@ -11,8 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #1e30f3;
-  --bs-indigo: #6610f2;
+  --bs-blue: #E1DACA;
+  --bs-indigo: #d6a940;
   --bs-purple: #6f42c1;
   --bs-pink: #e21e80;
   --bs-red: #dc3545;
@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1e30f3;
+  --bs-primary: #E1DACA;
   --bs-secondary: #e21e80;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -62,7 +62,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #E1DACA;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #1826c2;
+  --bs-link-color: #32f518;
+  --bs-link-hover-color: #fab411;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
 }
@@ -2850,19 +2850,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1e30f3;
-  --bs-btn-border-color: #1e30f3;
+  --bs-btn-bg: #916245;
+  --bs-btn-border-color: #000;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #1a29cf;
-  --bs-btn-hover-border-color: #1826c2;
+  --bs-btn-hover-bg: #f5b506;
+  --bs-btn-hover-border-color: #f5b506;
   --bs-btn-focus-shadow-rgb: 64, 79, 245;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #1826c2;
-  --bs-btn-active-border-color: #1724b6;
+  --bs-btn-active-bg: #f5b506;
+  --bs-btn-active-border-color: #f5b506;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #1e30f3;
-  --bs-btn-disabled-border-color: #1e30f3;
+  --bs-btn-disabled-bg: #f5b506;
+  --bs-btn-disabled-border-color: #f5b506;
 }
 
 .btn-secondary {
@@ -3628,7 +3628,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: #000;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -8190,12 +8190,12 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: #000 !important;
 }
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #916245 !important;
 }
 
 .text-success {
@@ -8245,7 +8245,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #000 !important;
 }
 
 .text-black-50 {
@@ -8311,7 +8311,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: rgba(255, 255, 255, 0.15) !important; */
 }
 
 .bg-dark {
@@ -8326,7 +8326,7 @@ textarea.form-control-lg {
 
 .bg-white {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #B3907A !important;
 }
 
 .bg-body {
@@ -11561,11 +11561,11 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #664d03 10%, #dd7450 100%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, #664d03 0%, #dd7450 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11616,7 +11616,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: #ffc107;
 }
 .profile .dots-3 {
   position: absolute;
@@ -11634,7 +11634,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: #b38704;
 }
 
 @media (min-width: 576px) {
